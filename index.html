@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <!-- Css Links -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <!-- NAV bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand logo" href="#">SHOPPER'S STOP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pages</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <!-- cart icon -->
+        <li class="cart-icon">
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <span>0</span>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</nav>
+
+<!-- Product part -->
+
+<section id="shopping-part">
+    <div class="container">
+        <div class="header">
+            <h1>product list</h1>
+        </div>
+        <div class="row p-5 border rounded">
+            <div class="col-lg-3">
+                <div class="products border border-primary-subtle rounded">
+                    <div class="img">
+                        <img src="images/tshirt1.jpg" alt="product">
+                    </div>
+                    <div class="p-name p-2">
+                        <h4>Jack & Jhones Lava</h4>
+                    </div>
+                    <span class="price">$25.0</span>
+                    <div class="cart-btn p-2">
+                        <button class="cart" type="button" onclick="addToCart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="products border border-primary-subtle rounded">
+                    <div class="img">
+                        <img src="images/tshirt2.jpg" alt="product">
+                    </div>
+                    <div class="p-name p-2">
+                        <h4>Jack & Jhones Zenus</h4>
+                    </div>
+                    <span class="price">$30.0</span>
+                    <div class="cart-btn p-2">
+                        <button class="cart" type="button" onclick="addToCart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="products border border-primary-subtle rounded">
+                    <div class="img">
+                        <img src="images/tshirt3.jpg" alt="product">
+                    </div>
+                    <div class="p-name p-2">
+                        <h4>Jack & Jhones Leaver</h4>
+                    </div>
+                    <span class="price">$40.0</span>
+                    <div class="cart-btn p-2">
+                        <button class="cart" type="button" onclick="addToCart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="products border border-primary-subtle rounded">
+                    <div class="img">
+                        <img src="images/tshirt4.jpeg" alt="product">
+                    </div>
+                    <div class="p-name p-2">
+                        <h4>Jack & Jhones Lava</h4>
+                    </div>
+                    <span class="price">$45.0</span>
+                    <div class="cart-btn p-2">
+                        <button class="cart" type="button" onclick="addToCart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+
+    <!-- JS Links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
