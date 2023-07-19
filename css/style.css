@@ -92,3 +92,82 @@ nav .cart-icon span{
 #shopping-part .products:hover{
     box-shadow: 5px 5px 5px rgba(102, 102, 102, 0.6);;
 }
+
+
+/* Cart part  */
+#cart-part{
+    background: #f5f5f5;
+}
+#cart-part .cart-product{
+    background: #f5f5f5;
+    padding: 40px 0;
+}
+#cart-part .cart-product .title h2{
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+}
+#cart-part .cart-product .left-part{
+    background: #fff;
+    padding: 20px;
+}
+#cart-part .cart-product .left-part h6{
+    font-size: 16px;
+    color: #777;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#cart-part .cart-product .left-part p{
+    font-size: 18px;
+    color: #444;
+    font-weight: 600;
+    text-align: center;
+}
+#cart-part .cart-product .left-part .remove span{
+    cursor: pointer;
+    transition: .4s;
+}
+#cart-part .cart-product .left-part .remove span:hover{
+    color: #EF6262;
+}
+#cart-part .cart-product .left-part input{
+    width: 30px;
+    margin: 0 10px;
+}
+#cart-part .cart-product .left-part .item .img{
+    width: 50px;
+    height: 50px;
+}
+#cart-part .cart-product .left-part .item .img img{
+    width: 100%;
+    height: 100%;
+}
+#cart-part .cart-product .left-part .item h4{
+    font-size: 18px;
+    color: #444;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#cart-part .cart-product .right-part{
+    background: #fff;
+    padding: 20px;
+}
+#cart-part .cart-product .right-part .title h5{
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+#cart-part .cart-product .right-part p{
+    font-size: 18px;
+    color: #444;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#cart-part .cart-product .right-part span{
+    font-size: 18px;
+    color: #444;
+    font-weight: 600;
+}

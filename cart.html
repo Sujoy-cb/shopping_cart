@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <!-- Css Links -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAV bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">SHOPPER'S STOP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <!-- cart icon -->
+              <li class="cart-icon">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  <span>0</span>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+
+
+      <!-- Cart Part -->
+      <section id="cart-part">
+        <div class="container-fluid">
+            <div class="cart-product">
+                <div class="title">
+                    <h2>Product in cart</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-9">
+                        <div class="left-part">
+                            <div class="head-title">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h6 class="text-start ms-4">Item</h6>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <h6>Unit price</h6>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <h6>Quantity</h6>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <h6>Final price</h6>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <h6>Remove</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-list border-bottom">
+                                <div class="row p-4">
+                                    <div class="col-lg-4">
+                                        
+                                        <div class="item d-flex">
+                                            <div class="img"><img src="images/tshirt1.jpg" alt="product"></div>
+                                            <h4>Jack & Jhones Lava</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="unit-price mt-2">
+                                            <p>$20</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="quantity d-flex mt-2 justify-content-center">
+                                            <span><i class="fa-solid fa-plus"></i></span>
+                                            <input type="text" value="0">
+                                            <span><i class="fa-solid fa-minus"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="final-price mt-2">
+                                            <p>$20</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="remove mt-2 text-center ms-5">
+                                            <span><i class="fa-solid fa-trash"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-list border-bottom">
+                                <div class="row p-4">
+                                    <div class="col-lg-4">
+                                        
+                                        <div class="item d-flex">
+                                            <div class="img"><img src="images/tshirt1.jpg" alt="product"></div>
+                                            <h4>Jack & Jhones Lava</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="unit-price mt-2">
+                                            <p>$20</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="quantity d-flex mt-2 justify-content-center">
+                                            <span><i class="fa-solid fa-plus"></i></span>
+                                            <input type="text" value="0">
+                                            <span><i class="fa-solid fa-minus"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="final-price mt-2">
+                                            <p>$20</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="remove mt-2 text-center ms-5">
+                                            <span><i class="fa-solid fa-trash"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-list border-bottom">
+                                <div class="row p-4">
+                                    <div class="col-lg-4">
+                                        
+                                        <div class="item d-flex">
+                                            <div class="img"><img src="images/tshirt1.jpg" alt="product"></div>
+                                            <h4>Jack & Jhones Lava</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="unit-price mt-2">
+                                            <p>$20</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="quantity d-flex mt-2 justify-content-center">
+                                            <span><i class="fa-solid fa-plus"></i></span>
+                                            <input type="text" value="0">
+                                            <span><i class="fa-solid fa-minus"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="final-price mt-2">
+                                            <p>$20</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="remove mt-2 text-center ms-5">
+                                            <span><i class="fa-solid fa-trash"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-list border-bottom">
+                                <div class="row p-4">
+                                    <div class="col-lg-4">
+                                        
+                                        <div class="item d-flex">
+                                            <div class="img"><img src="images/tshirt1.jpg" alt="product"></div>
+                                            <h4>Jack & Jhones Lava</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="unit-price mt-2">
+                                            <p>$20</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="quantity d-flex mt-2 justify-content-center">
+                                            <span><i class="fa-solid fa-plus"></i></span>
+                                            <input type="text" value="0">
+                                            <span><i class="fa-solid fa-minus"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="final-price mt-2">
+                                            <p>$20</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        
+                                        <div class="remove mt-2 text-center ms-5">
+                                            <span><i class="fa-solid fa-trash"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="right-part">
+                            <div class="title">
+                                <h5>Summary</h5>
+                            </div>
+                            <div class="sub-total d-flex justify-content-between mt-4">
+                                <p>subtotal</p>
+                                <span>$20</span>
+                            </div>
+                            <div class="s-expense d-flex justify-content-between border-bottom">
+                                <p>Shipping Exp.</p>
+                                <span>$30</span>
+                            </div>
+                            <div class="total d-flex justify-content-between mt-4">
+                                <p>total price</p>
+                                <span>$50</span>
+                            </div>
+                            <div class="cart-btn p-2">
+                                <button class="cart" type="button">Check Out</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    
+
+
+
+    <!-- JS Links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
