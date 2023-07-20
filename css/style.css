@@ -28,10 +28,8 @@ nav .cart-icon a{
     margin-left: 40px;
 }
 nav .cart-icon span{
-    width: 16px;
-    height: 16px;
-    line-height: 14px;
-    text-align: center;
+    width: 20px;
+    height: 20px;
     font-size: 14px;
     color: #fff;
     background: #EF6262;
@@ -40,6 +38,9 @@ nav .cart-icon span{
     position: absolute;
     top: 13px;
     right: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 #shopping-part{
     background: #fff;
@@ -77,7 +78,10 @@ nav .cart-icon span{
     font-weight: 600;
     padding: 0 10px;
 }
-.cart-btn .cart{
+.cart-btn #cart,
+.cart-btn #cart2,
+.cart-btn #cart3,
+.cart-btn #cart4{
     background: #191970;
     border: 1px solid #191970;
     border-radius: 5px;

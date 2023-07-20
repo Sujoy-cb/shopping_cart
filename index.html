@@ -15,7 +15,7 @@
     <!-- NAV bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand logo" href="#">SHOPPER'S STOP</a>
+    <a class="navbar-brand logo" href="index.html">SHOPPER'S STOP</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -38,8 +38,8 @@
           </li>
           <!-- cart icon -->
         <li class="cart-icon">
-            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-            <span>0</span>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <span class="shop-cart">0</span>
         </li>
       </ul>
     </div>
@@ -65,7 +65,7 @@
                     </div>
                     <span class="price">$25.0</span>
                     <div class="cart-btn p-2">
-                        <button class="cart" type="button" onclick="addToCart()">Add to cart</button>
+                        <button id="cart" type="button" onclick="addToCart('shop-cart')">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@
                     </div>
                     <span class="price">$30.0</span>
                     <div class="cart-btn p-2">
-                        <button class="cart" type="button" onclick="addToCart()">Add to cart</button>
+                        <button id="cart2" type="button" onclick="addToCart('shop-cart')">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     </div>
                     <span class="price">$40.0</span>
                     <div class="cart-btn p-2">
-                        <button class="cart" type="button" onclick="addToCart()">Add to cart</button>
+                        <button id="cart3" type="button" onclick="addToCart('shop-cart')">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     </div>
                     <span class="price">$45.0</span>
                     <div class="cart-btn p-2">
-                        <button class="cart" type="button" onclick="addToCart()">Add to cart</button>
+                        <button id="cart4" type="button" onclick="addToCart('shop-cart')">Add to cart</button>
                     </div>
                 </div>
             </div>
