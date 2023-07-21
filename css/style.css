@@ -53,21 +53,42 @@ nav .cart-icon span{
     text-transform: uppercase;
     text-align: center;
 }
-#shopping-part .products{
+#shopping-part .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+}
+#shopping-part .pro_item{
+    width: 24%;
+    margin-top: 20px;
+    border-radius: 8px;
+    transition: .4s;
+}
+#shopping-part .pro_item:hover{
+    box-shadow: 5px 5px 5px rgba(102, 102, 102, 0.6);
+}
+#shopping-part .allPropducts{
     background: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
     transition: .5s;
 }
-#shopping-part .products .img{
+#shopping-part .allPropducts .img{
     width: 236px;
     height: 236px;
     padding: 10px;
-    text-align: center;
+    margin: auto;
+    margin-left: -12px;
 }
-#shopping-part .products .img img{
+#shopping-part .allPropducts .img img{
     width: 100%;
     height: 100%;
 }
-.p-name h4{
+.name h4{
     font-size: 20px;
     color: #444;
     font-weight: 700;
@@ -76,14 +97,22 @@ nav .cart-icon span{
     font-size: 16px;
     color: #444;
     font-weight: 600;
-    padding: 0 10px;
 }
-.cart-btn #cart,
-.cart-btn #cart2,
-.cart-btn #cart3,
-.cart-btn #cart4{
+.cart-btn .cart{
     background: #191970;
     border: 1px solid #191970;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+.cart-btn .disabled{
+    background: #EF6262;
+    border: 1px solid #EF6262;
     border-radius: 5px;
     font-size: 18px;
     color: #fff;
